@@ -12,7 +12,7 @@ import mail_send
 
 #当前时间
 def current_time():
-              return time.strftime('%Y-%m-%d %H:%m:%S',time.localtime())
+              return time.strftime('%Y-%m-%d %H:%M:%S',time.localtime())
 
 
 #根据URL获取IP地址
